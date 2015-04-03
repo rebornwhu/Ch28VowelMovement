@@ -50,12 +50,12 @@ int main(int argc, const char * argv[])
         // could do it in one step
         
         void (^devowelizer)(id, NSUInteger, BOOL *) = ^(id string, NSUInteger i, BOOL *stop) {
-            NSRange yRange = [string rangeOfString:@"y"
-                                           options:NSCaseInsensitiveSearch];
-            if (yRange.location != NSNotFound) {
-                *stop = YES;
-                return;
-            }
+//            NSRange yRange = [string rangeOfString:@"y"
+//                                           options:NSCaseInsensitiveSearch];
+//            if (yRange.location != NSNotFound) {
+//                *stop = YES;
+//                return;
+//            }
             
             
             NSMutableString *newString = [NSMutableString stringWithString:string];
