@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void (^ArrayEnumerationBlock) (id, NSUInteger, BOOL *);
+//typedef void (^ArrayEnumerationBlock) (id, NSUInteger, BOOL *);
 
 int main(int argc, const char * argv[])
 {
